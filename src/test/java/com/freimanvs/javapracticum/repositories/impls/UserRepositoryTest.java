@@ -67,12 +67,6 @@ class UserRepositoryTest {
         assertEquals(user.getPassword(), updatedUser.getPassword());
     }
 
-//    @Test
-//    void findByIdFailure() {
-//        Long id = 1L;
-//        assertEquals(Optional.empty(), userRepository.findById(id));
-//    }
-
     @Test
     void findByIdSuccess() {
         User user = new User()
